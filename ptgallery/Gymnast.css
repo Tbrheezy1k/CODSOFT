@@ -1,0 +1,145 @@
+/*Universal Selector Targets All Elements on Page   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Gloabal Styling*/
+body {
+  font-family: Helvetica, sans-serif;
+  background: grey;
+  color: #333;
+  margin: 0px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+
+header h1 {
+  font-size: 33px;
+  margin-bottom: 20px;
+  color: rgb(16, 177, 16);
+}
+
+header {
+  background-color: #333;
+  text-align: center;
+  padding: 15px;
+}
+
+header p {
+  font-size: 19px;
+  color: rgb(16, 177, 16);
+}
+
+/* Main Content Styling*/
+
+.main-content {
+  padding: 40px 0;
+}
+
+.column {
+  width: 33.33%;
+  float: left;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-bottom: 55px;
+}
+
+.column h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: black;
+  text-align: left;
+}
+
+.column p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333;
+}
+.Nutrition {
+  width: 250px;
+}
+
+/* Contact Section Styling*/
+.contact {
+  background-color: #333;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 20px;
+  text-align: left;
+  color: #190202;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  font-size: 4px;
+  color: #635050;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #9d9795;
+  color: green;
+  font-size: 16px;
+  padding: 12px 14px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+  lighting-color: #f9f9f9;
+  border-color: rgb(16, 177, 16);
+  border-style: solid;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn :hover {
+  background-color: #e65100;
+  box-shadow: 8px 6px 10px rgba(0, 0, 0, 0.18);
+}
+
+/* Footing Styling */
+footer {
+  background-color: #333;
+  color: rgb(16, 177, 16);
+}
+
+footer p {
+  font-size: 16px;
+}
+
+/* Nav Bar Styling*/
+.navbar ul {
+  list-style-type: none;
+  background-color: #333;
+  color: rgb(16, 177, 16);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: grey;
+}
+
+.navbar li {
+  float: left;
+}
